@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/venkatesh-portfolio/static/css/main.d1b05096.chunk.css",
+    "main.js": "/venkatesh-portfolio/static/js/main.bc66feb2.chunk.js",
+    "main.js.map": "/venkatesh-portfolio/static/js/main.bc66feb2.chunk.js.map",
+    "runtime-main.js": "/venkatesh-portfolio/static/js/runtime-main.1a76df7d.js",
+    "runtime-main.js.map": "/venkatesh-portfolio/static/js/runtime-main.1a76df7d.js.map",
+    "static/js/2.a61e4a26.chunk.js": "/venkatesh-portfolio/static/js/2.a61e4a26.chunk.js",
+    "static/js/2.a61e4a26.chunk.js.map": "/venkatesh-portfolio/static/js/2.a61e4a26.chunk.js.map",
+    "index.html": "/venkatesh-portfolio/index.html",
+    "precache-manifest.570ba8e3978960927760ea57988b25bc.js": "/venkatesh-portfolio/precache-manifest.570ba8e3978960927760ea57988b25bc.js",
+    "service-worker.js": "/venkatesh-portfolio/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/venkatesh-portfolio/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.a61e4a26.chunk.js.LICENSE.txt": "/venkatesh-portfolio/static/js/2.a61e4a26.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/venkatesh-portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a76df7d.js",
+    "static/js/2.a61e4a26.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.bc66feb2.chunk.js"
+  ]
+}
