@@ -1,19 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Introduction, Sidebar } from './components';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Portfolio by
-        </p>
-        <h1>
-          Venkatesh M
-        </h1>
-      </header>
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+      <div className="main">
+        <Introduction />
+        {/* <p className="App-logo">Hi</p> */}
+      </div>
     </div>
   );
 }

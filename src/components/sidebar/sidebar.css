@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 4%;
+}
+
+.profileIcon {
+    font-size: 100px;
+}
