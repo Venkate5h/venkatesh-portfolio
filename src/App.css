@@ -1,3 +1,23 @@
-.App {
-  text-align: center;
+.ant-layout-header {
+  background: white;
+  position: fixed;
+  width: 100vw;
+  padding: 0 4vw;
+  z-index: 1;
+}
+
+.container {
+  height: 100vh;
+  padding: 12vh 4vw;
+  background: white;
+}
+
+.profile {
+  width: 75%;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+a {
+  color: #000;
 }
