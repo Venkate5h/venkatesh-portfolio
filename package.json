@@ -2,7 +2,7 @@
   "name": "venkatesh-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://venkate5h.github.io/venkatesh-portfolio",
+  "homepage": "https://venkate5h.github.io/venkatesh-portfolio/",
   "dependencies": {
     "@ant-design/icons": "^5.2.5",
     "@testing-library/jest-dom": "^5.17.0",
