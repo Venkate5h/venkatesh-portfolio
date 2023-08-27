@@ -1,37 +1,15 @@
 import { Anchor, Avatar, Col, Layout, Row, Space, Typography } from "antd";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Certifications from "./components/Certifications";
-import Contact from "./components/Contact";
-import Skills from "./components/Skills";
-import profilePhoto from "./assets/profile_photo.jpg";
+import profilePhoto from "./assets/profile.jpg";
+import routes from "./routes/routes";
 import "./App.css";
 
 const { Content, Header } = Layout;
-
-const items = [
-  { key: "home", href: "#home", title: "Home", component: Home },
-  { key: "skills", href: "#skills", title: "Skills", component: Skills },
-  {
-    key: "projects",
-    href: "#projects",
-    title: "Projects",
-    component: Projects,
-  },
-  {
-    key: "certifications",
-    href: "#certifications",
-    title: "Certifications",
-    component: Certifications,
-  },
-  { key: "contact", href: "#contact", title: "Contact", component: Contact },
-];
 
 function App() {
   return (
     <Layout>
       <Header>
-        <Row align="middle" justify="space-between">
+        <Row align="middle" justify="space-evenly" className="fullParent">
           <Col xs={0} md={12}>
             <Space>
               <Avatar src={profilePhoto} />
@@ -41,15 +19,15 @@ function App() {
             </Space>
           </Col>
           <Anchor
-            className="anchor"
-            items={items}
-            direction="horizontal"
             affix={false}
+            items={routes}
+            className="anchor"
+            direction="horizontal"
           />
         </Row>
       </Header>
       <Content>
-        {items.map((item) => (
+        {routes.map((item) => (
           <item.component key={item.key} />
         ))}
       </Content>

@@ -30,6 +30,11 @@
   padding: "2vw";
 }
 
+.fullParent {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .ant-anchor-wrapper-horizontal::before {
   border-bottom: none;
 }
