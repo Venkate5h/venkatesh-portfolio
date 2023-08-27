@@ -6,22 +6,14 @@ const Home = () => {
     <Row id="home" className="container" justify="center" align="middle">
       <Col span={24} align="center">
         <Space direction="vertical">
-          <img
-            justify="center"
-            align="middle"
-            src={profileLogo}
-            alt="profile"
-            className="profile"
-          />
+          <img alt="profile" src={profileLogo} className="profile" />
           <Space direction="vertical">
-            <Typography.Title level={1} style={{ fontWeight: 400 }}>
+            <Typography.Title level={1} className="profileName">
               Venkatesh M
             </Typography.Title>
-            <Typography.Title level={4} style={{ fontWeight: 400 }}>
+            <Typography.Title level={4} className="profileDescription">
               Passionate{" "}
-              <b style={{ color: "slateblue", opacity: 0.75 }}>
-                Full Stack Developer
-              </b>{" "}
+              <strong className="highlight">Full Stack Developer</strong>{" "}
               crafting seamless web experiences <br />
               through innovative front-end designs and robust back-end solutions
             </Typography.Title>

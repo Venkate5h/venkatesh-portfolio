@@ -9,7 +9,7 @@ function App() {
   return (
     <Layout>
       <Header>
-        <Row align="middle" justify="space-evenly" className="fullParent">
+        <Row align="middle" justify="space-evenly" className="parentFull">
           <Col xs={0} md={12}>
             <Space>
               <Avatar src={profilePhoto} />

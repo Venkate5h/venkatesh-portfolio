@@ -1,3 +1,18 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  width: 0.5vw;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background-color: slateblue;
+}
+
 .ant-layout-header {
   background: white;
   position: fixed;
@@ -6,16 +21,23 @@
   z-index: 1;
 }
 
+.ant-anchor-wrapper-horizontal::before {
+  border-bottom: none;
+}
+
+.ant-anchor-wrapper .ant-anchor .ant-anchor-link {
+  padding-inline-start: 4vw;
+}
+
 .container {
   height: 100vh;
   padding: 12vh 8vw;
   background: white;
 }
 
-.profile {
-  width: 250px;
-  border-radius: 50%;
-  opacity: 0.9;
+.parentFull {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .appLink {
@@ -26,19 +48,28 @@
   color: slateblue !important;
 }
 
-.anchor {
-  padding: "2vw";
+.profile {
+  width: 250px;
+  border-radius: 50%;
+  opacity: 0.9;
 }
 
-.fullParent {
-  min-width: 100%;
-  min-height: 100%;
+.profileName {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 42px;
+  opacity: 0.75;
+  letter-spacing: 2px;
 }
 
-.ant-anchor-wrapper-horizontal::before {
-  border-bottom: none;
+.profileDescription {
+  font-weight: 400 !important;
+  opacity: 0.8 !important;
+  margin: 0 !important;
 }
 
-.ant-anchor-wrapper .ant-anchor .ant-anchor-link {
-  padding-inline-start: 2vw;
+.highlight {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: slateblue;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
