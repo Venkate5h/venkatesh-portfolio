@@ -2,13 +2,13 @@
   background: white;
   position: fixed;
   width: 100vw;
-  padding: 0 4vw;
+  padding: 0 8vw;
   z-index: 1;
 }
 
 .container {
   height: 100vh;
-  padding: 12vh 4vw;
+  padding: 12vh 8vw;
   background: white;
 }
 
@@ -18,6 +18,22 @@
   opacity: 0.9;
 }
 
-a {
-  color: #000;
+.appLink {
+  color: initial !important;
+}
+
+.appLink:hover {
+  color: slateblue !important;
+}
+
+.anchor {
+  padding: "2vw";
+}
+
+.ant-anchor-wrapper-horizontal::before {
+  border-bottom: none;
+}
+
+.ant-anchor-wrapper .ant-anchor .ant-anchor-link {
+  padding-inline-start: 2vw;
 }
