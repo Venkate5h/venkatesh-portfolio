@@ -22,7 +22,7 @@ function App() {
     <Layout>
       <Header>
         <Row align={'middle'}>
-          <Col xs={0} md={14}>
+          <Col xs={0} md={12} align="center">
             <Space>
               <Avatar src={profilePhoto} />
               <Typography>
@@ -30,7 +30,7 @@ function App() {
               </Typography>
             </Space>
           </Col>
-          <Col xs={24} md={10} align="center">
+          <Col xs={24} md={12} align="center">
             <Row justify="center">
               <Anchor items={items} direction="horizontal" affix={false} />
             </Row>
