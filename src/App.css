@@ -33,6 +33,7 @@ body {
   height: 100vh;
   padding: 12vh 8vw;
   background: white;
+  overflow-y: auto;
 }
 
 .parentFull {
