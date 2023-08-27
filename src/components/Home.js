@@ -1,6 +1,5 @@
-import { Button, Col, Row, Space, Typography } from "antd";
+import { Col, Row, Space, Typography } from "antd";
 import profilePhoto from '../assets/profile_photo.jpg';
-import { DownloadOutlined } from "@ant-design/icons";
 
 const Home = () => {
     return (
@@ -19,12 +18,13 @@ const Home = () => {
                         alt="profile"
                         className="profile" />
                     <Space direction="vertical">
-                        <Typography.Title>
+                        <Typography.Title level={1} style={{ fontWeight: 400 }}>
                             Venkatesh M
                         </Typography.Title>
-                        <Button>
-                            <DownloadOutlined /> Resume
-                        </Button>
+                        <Typography.Title level={4} style={{ fontWeight: 400 }}>
+                            Passionate <b style={{ color: 'slateblue', opacity: 0.75 }}>Full Stack Developer</b> crafting seamless web experiences <br />
+                            through innovative front-end designs and robust back-end solutions
+                        </Typography.Title>
                     </Space>
                 </Space>
             </Col>

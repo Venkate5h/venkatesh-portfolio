@@ -1,25 +1,28 @@
-import { Avatar, Col, Layout, Row, Space, Typography } from 'antd';
+import { Anchor, Avatar, Col, Layout, Row, Space, Typography } from 'antd';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
-import './App.css';
+import Skills from './components/Skills';
 import profilePhoto from './assets/profile_photo.jpg';
+import './App.css';
+
 const { Content, Header } = Layout;
 
 const items = [
   { key: 'home', href: "#home", title: 'Home', component: Home },
+  { key: 'skills', href: "#skills", title: 'Skills', component: Skills },
   { key: 'projects', href: "#projects", title: 'Projects', component: Projects },
   { key: 'certifications', href: "#certifications", title: 'Certifications', component: Certifications },
   { key: 'contact', href: "#contact", title: 'Contact', component: Contact }
-]
+];
 
 function App() {
   return (
     <Layout>
       <Header>
         <Row align={'middle'}>
-          <Col span={12}>
+          <Col xs={0} md={14}>
             <Space>
               <Avatar src={profilePhoto} />
               <Typography>
@@ -27,15 +30,9 @@ function App() {
               </Typography>
             </Space>
           </Col>
-          <Col span={12}>
-            <Row justify={'space-evenly'}>
-              {
-                items.map((item) =>
-                  <a key={item.key} href={item.href}>
-                    {item.title}
-                  </a>
-                )
-              }
+          <Col xs={24} md={10} align="center">
+            <Row justify="center">
+              <Anchor items={items} direction="horizontal" affix={false} />
             </Row>
           </Col>
         </Row>
