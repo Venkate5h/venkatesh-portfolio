@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio GitHub repository! This repository hosts the code for my personal portfolio website, showcasing my skills, projects, certifications, and contact information. The website is live and can be accessed through [GitHub Pages](https://yourusername.github.io/personal-portfolio).
 
-Note: This portfolio might not reflect the most up-to-date information beyond the point it was last developed. For the latest information about my experiences and projects, please refer to my [LinkedIn profile](https://www.linkedin.com/in/venkate5h/).
+**Note: This portfolio might not reflect the most up-to-date information beyond the point it was last developed. For the latest information about my experiences and projects, please refer to my [LinkedIn profile](https://www.linkedin.com/in/venkate5h/).**
 
 ## Table of Contents
 
