@@ -18,7 +18,8 @@ const CardList = ({ items }) => {
           <Col
             xs={24}
             sm={12}
-            md={8}
+            lg={8}
+            xl={8}
             xxl={6}
             key={name}
             align="center"
@@ -43,9 +44,11 @@ const CardList = ({ items }) => {
                   align="start"
                   style={{ marginTop: "1vh" }}
                 >
-                  <Typography.Text>Provider: {courseProvider}</Typography.Text>
                   <Typography.Text>
-                    Completion Month: {completionMonth}
+                    Provider: <strong>{courseProvider}</strong>
+                  </Typography.Text>
+                  <Typography.Text>
+                    Completion Month: <strong>{completionMonth}</strong>
                   </Typography.Text>
                   <Typography.Text>
                     Credential Url:{" "}
@@ -55,7 +58,7 @@ const CardList = ({ items }) => {
                   </Typography.Text>
                 </Space>
               )}
-              <Typography.Title level={5} style={{ fontWeight: 400 }}>
+              <Typography.Title level={5} className="cardDescription">
                 {description}
               </Typography.Title>
               {link && (

@@ -10,6 +10,7 @@ const Ceritifications = () => {
       className="container"
       justify="center"
       align="middle"
+      style={{ backgroundColor: "rgba(39, 245, 239, 0.05)" }}
     >
       <Col span={24} align="center">
         <Typography.Title level={3} className="subTitle">

@@ -5,7 +5,7 @@ import CardList from "./CardList";
 
 const Projects = () => {
   return (
-    <Row id="projects" className="container" justify="center" align="middle">
+    <Row id="projects" className="container" justify="center" align="middle" style={{backgroundColor: "rgba(39, 245, 68, 0.05)"}}>
       <Col span={24} align="center">
         <Typography.Title level={3} className="subTitle">
           <RiseOutlined /> Projects

@@ -3,7 +3,13 @@ import profileLogo from "../assets/profile.jpg";
 
 const Home = () => {
   return (
-    <Row id="home" className="container" justify="center" align="middle">
+    <Row
+      id="home"
+      className="container"
+      justify="center"
+      align="middle"
+      style={{ backgroundColor: "rgba(39, 245, 68, 0.05)" }}
+    >
       <Col span={24} align="center">
         <Space direction="vertical">
           <img alt="profile" src={profileLogo} className="profile" />
