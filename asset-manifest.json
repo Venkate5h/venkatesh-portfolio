@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/venkatesh-portfolio/static/css/main.c55440b1.css",
-    "main.js": "/venkatesh-portfolio/static/js/main.e47e5f51.js",
+    "main.css": "/venkatesh-portfolio/static/css/main.01a025e0.css",
+    "main.js": "/venkatesh-portfolio/static/js/main.148ea246.js",
     "static/js/787.002e0ffc.chunk.js": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js",
     "static/media/profile.jpg": "/venkatesh-portfolio/static/media/profile.78c57837ac06633b1cf5.jpg",
     "static/media/mysql.svg": "/venkatesh-portfolio/static/media/mysql.da24dc29a1160e48f4b96db57b52d5bb.svg",
@@ -19,12 +19,12 @@
     "static/media/django.svg": "/venkatesh-portfolio/static/media/django.17679d577901e58f87fd6cf00dd997b5.svg",
     "static/media/azure-devops.svg": "/venkatesh-portfolio/static/media/azure-devops.3333a8336e9166ef7af257f77378361e.svg",
     "static/media/html5.svg": "/venkatesh-portfolio/static/media/html5.6d3bbe96a0610c287f305ecaf5824e36.svg",
-    "main.c55440b1.css.map": "/venkatesh-portfolio/static/css/main.c55440b1.css.map",
-    "main.e47e5f51.js.map": "/venkatesh-portfolio/static/js/main.e47e5f51.js.map",
+    "main.01a025e0.css.map": "/venkatesh-portfolio/static/css/main.01a025e0.css.map",
+    "main.148ea246.js.map": "/venkatesh-portfolio/static/js/main.148ea246.js.map",
     "787.002e0ffc.chunk.js.map": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c55440b1.css",
-    "static/js/main.e47e5f51.js"
+    "static/css/main.01a025e0.css",
+    "static/js/main.148ea246.js"
   ]
 }
