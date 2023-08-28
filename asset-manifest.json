@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/venkatesh-portfolio/static/css/main.a7e60062.css",
-    "main.js": "/venkatesh-portfolio/static/js/main.0843b8a5.js",
+    "main.css": "/venkatesh-portfolio/static/css/main.0b5eca79.css",
+    "main.js": "/venkatesh-portfolio/static/js/main.8ff06749.js",
     "static/js/787.002e0ffc.chunk.js": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js",
     "static/media/profile.jpg": "/venkatesh-portfolio/static/media/profile.78c57837ac06633b1cf5.jpg",
+    "static/media/twitter.svg": "/venkatesh-portfolio/static/media/twitter.743a825403b64b55b8e79028ac92361a.svg",
     "static/media/mysql.svg": "/venkatesh-portfolio/static/media/mysql.da24dc29a1160e48f4b96db57b52d5bb.svg",
     "static/media/nodejs.svg": "/venkatesh-portfolio/static/media/nodejs.83285861588fa809ab542ee73c70ab4b.svg",
     "static/media/react.svg": "/venkatesh-portfolio/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
@@ -19,16 +20,18 @@
     "static/media/css3.svg": "/venkatesh-portfolio/static/media/css3.3b09ac3fe497b5c8138d4e8101bc62ee.svg",
     "static/media/git.svg": "/venkatesh-portfolio/static/media/git.edd16ea0c2abbdab94134ca45d672605.svg",
     "static/media/github.svg": "/venkatesh-portfolio/static/media/github.2d2fe081cab6ba0e3837fcf2cc96dcf1.svg",
+    "static/media/hackerearth.svg": "/venkatesh-portfolio/static/media/hackerearth.4fd7d3a0850329f6bf413e4c0eba4cc2.svg",
     "static/media/django.svg": "/venkatesh-portfolio/static/media/django.17679d577901e58f87fd6cf00dd997b5.svg",
     "static/media/azure-devops.svg": "/venkatesh-portfolio/static/media/azure-devops.3333a8336e9166ef7af257f77378361e.svg",
     "static/media/html5.svg": "/venkatesh-portfolio/static/media/html5.6d3bbe96a0610c287f305ecaf5824e36.svg",
+    "static/media/linkedin.svg": "/venkatesh-portfolio/static/media/linkedin.478f0c4d334d102a271541fd33ed1c76.svg",
     "static/media/facebook.svg": "/venkatesh-portfolio/static/media/facebook.d736efecebc2ac1f6a3b573fa64bdbee.svg",
-    "main.a7e60062.css.map": "/venkatesh-portfolio/static/css/main.a7e60062.css.map",
-    "main.0843b8a5.js.map": "/venkatesh-portfolio/static/js/main.0843b8a5.js.map",
+    "main.0b5eca79.css.map": "/venkatesh-portfolio/static/css/main.0b5eca79.css.map",
+    "main.8ff06749.js.map": "/venkatesh-portfolio/static/js/main.8ff06749.js.map",
     "787.002e0ffc.chunk.js.map": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7e60062.css",
-    "static/js/main.0843b8a5.js"
+    "static/css/main.0b5eca79.css",
+    "static/js/main.8ff06749.js"
   ]
 }
