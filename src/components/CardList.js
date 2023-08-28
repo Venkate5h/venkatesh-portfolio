@@ -1,40 +1,72 @@
 import { Col, Row, Space, Tag, Typography } from "antd";
-import { LinkOutlined } from "@ant-design/icons";
+import { ExportOutlined } from "@ant-design/icons";
 
 const CardList = ({ items }) => {
   return (
-    <Row align="middle" justify="center" gutter={[0, 32]}>
-      {items.map(({ name, description, icon, link, technologies = [] }) => (
-        <Col
-          xs={24}
-          sm={12}
-          md={8}
-          xxl={6}
-          key={name}
-          align="center"
-          className="cardContainer"
-        >
-          <Space direction="vertical" className="card">
-            <img src={icon} alt={name} className="cardImage" />
-            <Typography.Text className="cardTitle">{name}</Typography.Text>
-            {technologies?.length > 0 && (
-              <Row justify={"center"}>
-                {technologies?.map((item) => (
-                  <Tag key={item} style={{ marginTop: "1vh" }}>
-                    {item}
-                  </Tag>
-                ))}
-              </Row>
-            )}
-            <Typography.Text>{description}</Typography.Text>
-            {link && (
-              <Typography.Link href={link} target="_blank">
-                View Project <LinkOutlined />
-              </Typography.Link>
-            )}
-          </Space>
-        </Col>
-      ))}
+    <Row align="top" justify="center" gutter={[0, 32]}>
+      {items.map(
+        ({
+          name,
+          description,
+          icon,
+          link,
+          technologies = [],
+          credentialLink,
+          courseProvider,
+          completionMonth,
+        }) => (
+          <Col
+            xs={24}
+            sm={12}
+            md={8}
+            xxl={6}
+            key={name}
+            align="center"
+            className="cardContainer"
+          >
+            <Space direction="vertical" className="card" align="center">
+              <img src={icon} alt={name} className="cardImage" />
+              <Typography.Text className="cardTitle">{name}</Typography.Text>
+              {technologies?.length > 0 && (
+                <Row justify="center">
+                  {technologies?.map((item) => (
+                    <Tag key={item} style={{ marginTop: "1vh" }}>
+                      {item}
+                    </Tag>
+                  ))}
+                </Row>
+              )}
+              {credentialLink && (
+                <Space
+                  size={0}
+                  direction="vertical"
+                  align="start"
+                  style={{ marginTop: "1vh" }}
+                >
+                  <Typography.Text>Provider: {courseProvider}</Typography.Text>
+                  <Typography.Text>
+                    Completion Month: {completionMonth}
+                  </Typography.Text>
+                  <Typography.Text>
+                    Credential Url:{" "}
+                    <Typography.Link href={credentialLink} target="_blank">
+                      View Certificate <ExportOutlined />
+                    </Typography.Link>
+                  </Typography.Text>
+                </Space>
+              )}
+              <Typography.Title level={5} style={{ fontWeight: 400 }}>
+                {description}
+              </Typography.Title>
+              {link && (
+                <Typography.Link href={link} target="_blank">
+                  View Project <ExportOutlined />
+                </Typography.Link>
+              )}
+            </Space>
+          </Col>
+        )
+      )}
     </Row>
   );
 };

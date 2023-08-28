@@ -1,11 +1,24 @@
-import { Row } from "antd";
+import { Col, Row, Typography } from "antd";
+import { SafetyCertificateOutlined } from "@ant-design/icons";
+import CardList from "./CardList";
+import certificationList from "../items/certificationList";
 
-const Certifications = () => {
+const Ceritifications = () => {
   return (
-    <Row id="certifications" className="container" justify="center">
-      Certifications
+    <Row
+      id="certifications"
+      className="container"
+      justify="center"
+      align="middle"
+    >
+      <Col span={24} align="center">
+        <Typography.Title level={3} className="subTitle">
+          <SafetyCertificateOutlined /> Ceritifications
+        </Typography.Title>
+        <CardList items={certificationList} />
+      </Col>
     </Row>
   );
 };
 
-export default Certifications;
+export default Ceritifications;
