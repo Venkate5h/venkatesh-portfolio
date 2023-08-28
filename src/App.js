@@ -1,6 +1,6 @@
 import { Anchor, Avatar, Col, Layout, Row, Space, Typography } from "antd";
 import profilePhoto from "./assets/profile.jpg";
-import items from "./items/navigationItems";
+import items from "./items/navigationList";
 import "./App.css";
 
 const { Content, Header } = Layout;
