@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/venkatesh-portfolio/static/css/main.5c9533ba.css",
-    "main.js": "/venkatesh-portfolio/static/js/main.e55993f4.js",
+    "main.css": "/venkatesh-portfolio/static/css/main.c55440b1.css",
+    "main.js": "/venkatesh-portfolio/static/js/main.e47e5f51.js",
     "static/js/787.002e0ffc.chunk.js": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js",
     "static/media/profile.jpg": "/venkatesh-portfolio/static/media/profile.78c57837ac06633b1cf5.jpg",
     "static/media/mysql.svg": "/venkatesh-portfolio/static/media/mysql.da24dc29a1160e48f4b96db57b52d5bb.svg",
     "static/media/nodejs.svg": "/venkatesh-portfolio/static/media/nodejs.83285861588fa809ab542ee73c70ab4b.svg",
     "static/media/react.svg": "/venkatesh-portfolio/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
+    "static/media/data-visualization.svg": "/venkatesh-portfolio/static/media/data-visualization.98e5d39459e68e983d4fceb75a6a313e.svg",
+    "static/media/redux.svg": "/venkatesh-portfolio/static/media/redux.0d451f4a96daa541b83b419534633d6e.svg",
     "static/media/javascript.svg": "/venkatesh-portfolio/static/media/javascript.571026b43542d2b70353517ebaa1aa28.svg",
     "static/media/python.svg": "/venkatesh-portfolio/static/media/python.8cfa0a9db040ecc11a3017ff5536ef5e.svg",
+    "static/media/mongodb.svg": "/venkatesh-portfolio/static/media/mongodb.44df644c46fe7e0f75a3a6762db80ea2.svg",
     "index.html": "/venkatesh-portfolio/index.html",
+    "static/media/one-finger-gesture.svg": "/venkatesh-portfolio/static/media/one-finger-gesture.714c688d173f9382978a35791fc9d87a.svg",
     "static/media/css3.svg": "/venkatesh-portfolio/static/media/css3.3b09ac3fe497b5c8138d4e8101bc62ee.svg",
+    "static/media/git.svg": "/venkatesh-portfolio/static/media/git.edd16ea0c2abbdab94134ca45d672605.svg",
     "static/media/django.svg": "/venkatesh-portfolio/static/media/django.17679d577901e58f87fd6cf00dd997b5.svg",
+    "static/media/azure-devops.svg": "/venkatesh-portfolio/static/media/azure-devops.3333a8336e9166ef7af257f77378361e.svg",
     "static/media/html5.svg": "/venkatesh-portfolio/static/media/html5.6d3bbe96a0610c287f305ecaf5824e36.svg",
-    "main.5c9533ba.css.map": "/venkatesh-portfolio/static/css/main.5c9533ba.css.map",
-    "main.e55993f4.js.map": "/venkatesh-portfolio/static/js/main.e55993f4.js.map",
+    "main.c55440b1.css.map": "/venkatesh-portfolio/static/css/main.c55440b1.css.map",
+    "main.e47e5f51.js.map": "/venkatesh-portfolio/static/js/main.e47e5f51.js.map",
     "787.002e0ffc.chunk.js.map": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c9533ba.css",
-    "static/js/main.e55993f4.js"
+    "static/css/main.c55440b1.css",
+    "static/js/main.e47e5f51.js"
   ]
 }
