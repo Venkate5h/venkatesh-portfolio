@@ -1,6 +1,10 @@
 import github from "../assets/github.svg";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
+import twitter from "../assets/twitter.svg";
+import leetcode from "../assets/leetcode.png";
+import linkedin from "../assets/linkedin.svg";
+import hackerearth from "../assets/hackerearth.svg";
 
 const contactList = [
   {
@@ -11,19 +15,19 @@ const contactList = [
   },
   {
     name: "LinkedIn",
-    icon: github,
+    icon: linkedin,
     profileName: "Venkate5h",
     profileUrl: "https://www.linkedin.com/in/venkate5h/",
   },
   {
     name: "Leetcode",
-    icon: github,
+    icon: leetcode,
     profileName: "Venkate5h",
     profileUrl: "https://leetcode.com/venkate5h/",
   },
   {
     name: "HackerEarth",
-    icon: github,
+    icon: hackerearth,
     profileName: "Venkate5h",
     profileUrl: "https://www.hackerearth.com/@venkate5h",
   },
@@ -41,7 +45,7 @@ const contactList = [
   },
   {
     name: "Twitter",
-    icon: github,
+    icon: twitter,
     profileName: "iam_venkie",
     profileUrl: "https://twitter.com/iam_venkie",
   },

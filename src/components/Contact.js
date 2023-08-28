@@ -18,16 +18,18 @@ const Contact = () => {
           <Row align="middle" justify="space-evenly" gutter={[0, 16]}>
             {contactList.map((contact) => (
               <Col xs={24} sm={8} xl={4} xxl={2} key={contact.name}>
-                <Space align="center">
-                  <img
-                    src={contact.icon}
-                    alt={contact.name}
-                    className="contactImage"
-                  />
-                  <Typography.Link href={contact.profileUrl} target="_blank">
-                    {contact.profileName}
-                  </Typography.Link>
-                </Space>
+                <Typography.Text title={contact.name}>
+                  <Space align="center">
+                    <img
+                      src={contact.icon}
+                      alt={contact.name}
+                      className="contactImage"
+                    />
+                    <Typography.Link href={contact.profileUrl} target="_blank">
+                      {contact.profileName}
+                    </Typography.Link>
+                  </Space>
+                </Typography.Text>
               </Col>
             ))}
           </Row>
