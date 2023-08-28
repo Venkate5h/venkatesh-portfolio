@@ -1,6 +1,6 @@
 import { Anchor, Avatar, Col, Layout, Row, Space, Typography } from "antd";
 import profilePhoto from "./assets/profile.jpg";
-import routes from "./items/navigationItems";
+import items from "./items/navigationItems";
 import "./App.css";
 
 const { Content, Header } = Layout;
@@ -20,14 +20,14 @@ function App() {
           </Col>
           <Anchor
             affix={false}
-            items={routes}
+            items={items}
             className="anchor"
             direction="horizontal"
           />
         </Row>
       </Header>
       <Content>
-        {routes.map((item) => (
+        {items.map((item) => (
           <item.component key={item.key} />
         ))}
       </Content>

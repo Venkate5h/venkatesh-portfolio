@@ -1,5 +1,5 @@
 import { Col, Row, Typography } from "antd";
-import skills from "../items/skillItems";
+import skillList from "../items/skillList";
 import { SketchOutlined } from "@ant-design/icons";
 import CardList from "./CardList";
 
@@ -10,7 +10,7 @@ const Skills = () => {
         <Typography.Title level={3} className="subTitle">
           <SketchOutlined /> Top Skills
         </Typography.Title>
-        <CardList items={skills} />
+        <CardList items={skillList} />
       </Col>
     </Row>
   );

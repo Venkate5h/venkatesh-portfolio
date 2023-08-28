@@ -1,5 +1,5 @@
 import { Col, Row, Typography } from "antd";
-import projects from "../items/projectItems";
+import projectList from "../items/projectList";
 import { RiseOutlined } from "@ant-design/icons";
 import CardList from "./CardList";
 
@@ -10,7 +10,7 @@ const Projects = () => {
         <Typography.Title level={3} className="subTitle">
           <RiseOutlined /> Projects
         </Typography.Title>
-        <CardList items={projects} />
+        <CardList items={projectList} />
       </Col>
     </Row>
   );
