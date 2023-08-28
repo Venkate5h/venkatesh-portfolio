@@ -30,10 +30,9 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   padding: 12vh 8vw;
   background: white;
-  overflow-y: auto;
 }
 
 .parentFull {
@@ -70,7 +69,17 @@ body {
 
 .highlight {
   font-family: "Alegreya Sans SC", sans-serif;
-  color: slateblue;
+  color: slateblue !important;
   letter-spacing: 1px;
   font-size: 24px;
+}
+
+.subTitle {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  opacity: 0.75;
+  font-weight: 500;
+  padding-bottom: 4vh;
+  text-align: center;
 }

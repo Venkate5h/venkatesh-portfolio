@@ -10,7 +10,7 @@ function App() {
     <Layout>
       <Header>
         <Row align="middle" justify="space-evenly" className="parentFull">
-          <Col xs={0} md={12}>
+          <Col xs={0} sm={0} md={12}>
             <Space>
               <Avatar src={profilePhoto} />
               <Typography.Link href="#home" className="appLink">
