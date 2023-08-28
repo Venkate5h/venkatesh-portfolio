@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venkatesh-portfolio/static/css/main.a7e60062.css",
-    "main.js": "/venkatesh-portfolio/static/js/main.a3b2976a.js",
+    "main.js": "/venkatesh-portfolio/static/js/main.0843b8a5.js",
     "static/js/787.002e0ffc.chunk.js": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js",
     "static/media/profile.jpg": "/venkatesh-portfolio/static/media/profile.78c57837ac06633b1cf5.jpg",
     "static/media/mysql.svg": "/venkatesh-portfolio/static/media/mysql.da24dc29a1160e48f4b96db57b52d5bb.svg",
@@ -24,11 +24,11 @@
     "static/media/html5.svg": "/venkatesh-portfolio/static/media/html5.6d3bbe96a0610c287f305ecaf5824e36.svg",
     "static/media/facebook.svg": "/venkatesh-portfolio/static/media/facebook.d736efecebc2ac1f6a3b573fa64bdbee.svg",
     "main.a7e60062.css.map": "/venkatesh-portfolio/static/css/main.a7e60062.css.map",
-    "main.a3b2976a.js.map": "/venkatesh-portfolio/static/js/main.a3b2976a.js.map",
+    "main.0843b8a5.js.map": "/venkatesh-portfolio/static/js/main.0843b8a5.js.map",
     "787.002e0ffc.chunk.js.map": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7e60062.css",
-    "static/js/main.a3b2976a.js"
+    "static/js/main.0843b8a5.js"
   ]
 }
