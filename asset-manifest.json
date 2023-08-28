@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/venkatesh-portfolio/static/css/main.01a025e0.css",
-    "main.js": "/venkatesh-portfolio/static/js/main.148ea246.js",
+    "main.js": "/venkatesh-portfolio/static/js/main.431d7514.js",
     "static/js/787.002e0ffc.chunk.js": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js",
     "static/media/profile.jpg": "/venkatesh-portfolio/static/media/profile.78c57837ac06633b1cf5.jpg",
     "static/media/mysql.svg": "/venkatesh-portfolio/static/media/mysql.da24dc29a1160e48f4b96db57b52d5bb.svg",
     "static/media/nodejs.svg": "/venkatesh-portfolio/static/media/nodejs.83285861588fa809ab542ee73c70ab4b.svg",
     "static/media/react.svg": "/venkatesh-portfolio/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
     "static/media/data-visualization.svg": "/venkatesh-portfolio/static/media/data-visualization.98e5d39459e68e983d4fceb75a6a313e.svg",
+    "static/media/meta.svg": "/venkatesh-portfolio/static/media/meta.c1a17496c62ee249e005a1e34b1d2d97.svg",
     "static/media/redux.svg": "/venkatesh-portfolio/static/media/redux.0d451f4a96daa541b83b419534633d6e.svg",
     "static/media/javascript.svg": "/venkatesh-portfolio/static/media/javascript.571026b43542d2b70353517ebaa1aa28.svg",
     "static/media/python.svg": "/venkatesh-portfolio/static/media/python.8cfa0a9db040ecc11a3017ff5536ef5e.svg",
@@ -20,11 +21,11 @@
     "static/media/azure-devops.svg": "/venkatesh-portfolio/static/media/azure-devops.3333a8336e9166ef7af257f77378361e.svg",
     "static/media/html5.svg": "/venkatesh-portfolio/static/media/html5.6d3bbe96a0610c287f305ecaf5824e36.svg",
     "main.01a025e0.css.map": "/venkatesh-portfolio/static/css/main.01a025e0.css.map",
-    "main.148ea246.js.map": "/venkatesh-portfolio/static/js/main.148ea246.js.map",
+    "main.431d7514.js.map": "/venkatesh-portfolio/static/js/main.431d7514.js.map",
     "787.002e0ffc.chunk.js.map": "/venkatesh-portfolio/static/js/787.002e0ffc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01a025e0.css",
-    "static/js/main.148ea246.js"
+    "static/js/main.431d7514.js"
   ]
 }
