@@ -30,6 +30,6 @@ If you'd like to get in touch, the **Contact** section provides multiple ways to
 
 ## Live Website
 
-My personal portfolio is live and can be accessed at [GitHub Pages](https://venkate5h.github.io/personal-portfolio). Feel free to explore the various sections and learn more about my skills, projects, and achievements.
+My personal portfolio is live and can be accessed at [GitHub Pages](https://venkate5h.github.io/venkatesh-portfolio). Feel free to explore the various sections and learn more about my skills, projects, and achievements.
 
 Thank you for visiting my GitHub repository and taking the time to explore my personal portfolio. If you have any questions, feedback, or collaboration opportunities, feel free to reach out via the contact information provided in the **Contact** section.
