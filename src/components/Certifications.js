@@ -3,7 +3,7 @@ import { SafetyCertificateOutlined } from "@ant-design/icons";
 import CardList from "./CardList";
 import certificationList from "../items/certificationList";
 
-const Ceritifications = () => {
+const Certifications = () => {
   return (
     <Row
       id="certifications"
@@ -14,7 +14,7 @@ const Ceritifications = () => {
     >
       <Col span={24} align="center">
         <Typography.Title level={3} className="subTitle">
-          <SafetyCertificateOutlined /> Ceritifications
+          <SafetyCertificateOutlined /> Certifications
         </Typography.Title>
         <CardList items={certificationList} />
       </Col>
@@ -22,4 +22,4 @@ const Ceritifications = () => {
   );
 };
 
-export default Ceritifications;
+export default Certifications;
