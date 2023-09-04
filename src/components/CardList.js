@@ -3,7 +3,7 @@ import { ExportOutlined } from "@ant-design/icons";
 
 const CardList = ({ items }) => {
   return (
-    <Row align="top" justify="center" gutter={[0, 32]}>
+    <Row align="stretch" justify="center" gutter={[0, 32]}>
       {items.map(
         ({
           name,
